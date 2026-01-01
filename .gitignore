@@ -1,0 +1,59 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual env
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Data (NÃO subir dados brutos)
+# =========================
+data/raw/
+data/processed/
+
+# =========================
+# Models
+# =========================
+# Se o modelo for pequeno (<50MB), COMENTE essa linha
+# Se for grande, ative e use storage externo
+# models/
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Cache
+# =========================
+.cache/
+.pytest_cache/
+.mypy_cache/
